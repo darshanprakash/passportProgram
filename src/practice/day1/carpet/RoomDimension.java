@@ -6,6 +6,11 @@ public class RoomDimension {
 
     private final int width;
 
+    public RoomDimension() {
+        length = 0;
+        width = 0;
+    }
+
     public RoomDimension(int length, int width) {
         this.length = length;
         this.width = width;
