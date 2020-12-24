@@ -1,9 +1,12 @@
 package practice.day1.carpet;
 
 import java.util.Scanner;
+import org.apache.log4j.Logger;
 
-public class Main {
+public class CarpetCostCalculator {
     public static void main(String[] args) {
+        final Logger logger = Logger.getLogger(CarpetCostCalculator.class.getName());
+        logger.info("Logger Set up");
         System.out.println("Carpet cost Calculator");
         System.out.println("Enter the length of the room: ");
         Scanner in = new Scanner(System.in);
